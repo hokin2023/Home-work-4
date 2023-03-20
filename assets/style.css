@@ -1,0 +1,45 @@
+.hide {
+display: none;
+}
+.hide-2 {
+    display: none;
+}
+h1  {
+font-size: 35px;
+flex: 20%;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.large-font {
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+
+.first-btn {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.start-button {
+   background-color: aquamarine;
+   font-size: 25px;
+}
+
+.btn1, .btn2, .btn3, .btn4 {
+    display: block;
+    background-color: antiquewhite;
+    line-height: 30px;
+    padding: 5px;
+    
+}
+quiz-body {
+    display:flex;
+    justify-content: center;
+}

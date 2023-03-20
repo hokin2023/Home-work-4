@@ -5,9 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
-<body>
-    <script src="jv.js"></script>
+<body class="quiz-body">
+    <header>
+        <h1>Coding Quiz</h1>
+    
+    <div class= "card timer">
+      <div class = "timer-text">
+      <div class="large-font timer-count">120</div>
+      
+    </div>
+    </header>
+    <main>
+<div class="first-btn">
+        <button class="start-button">Start</button>
+    </div>
+<div id="question-container" class="hide">
+    <h1 id="question">Question</h1>
+<div id="answer-buttons">
+<button class="btn1" value="1">1</button>
+<button class="btn2" value="2">2</button>
+<button class="btn3" value="3">3</button>
+<button class="btn4" value="4">4</button>
+
+</div>
+</div>
+<div id="over" class="hide-2">
+<div class="the-end">
+<h3>Game over!</h3>
+<p>Your final score is: <span class="score">0</span></p>
+<p>Enter your initials: <span><input class="initials" /></span>
+<button class="submit-btn">Submit</button>
+</p>
+
+</div>
+<div class ='score-El'>
+    <ol class="score-list"></ol>
+
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+    <script src="./assets/jv.js"></script>
 </body>
 </html>
